@@ -1,7 +1,13 @@
-
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import "./globals.css";
+import { Ubuntu } from "next/font/google";
+
+const ubuntu = Ubuntu({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "700"],
+  variable: "--font-ubuntu",
+});
 
 export const metadata = {
   title: "Create Next App",
@@ -10,10 +16,10 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className={ubuntu.variable} suppressHydrationWarning>
       <body>
         <Navbar />
-        <main className="h-screen place-items-center place-content-center bg-base-200 max-w-280 mx-auto w-full">
+        <main className="min-h-screen place-items-center bg-base-200 max-w-280 mx-auto w-full">
           {children}
         </main>
         <Footer />

@@ -50,7 +50,7 @@ const Navbar = () => {
         </div>
         <Link href="/" className="btn btn-ghost text-xl">
           <Image src="/logo.png" alt="Camera" width={40} height={40} />
-          <span className="text-amber-800 dark:text-primary">CameraCrew</span>
+          <span className="text-amber-800 dark:text-primary font-sans antialiased">CameraCrew</span>
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
@@ -58,10 +58,16 @@ const Navbar = () => {
       </div>
       <div className="navbar-end gap-2">
         <Link
-          href="/"
+          href="/login"
           className="btn btn-sm btn-primary btn-outline shadow-none text-lg"
         >
-          Get Started
+          Login
+        </Link>
+        <Link
+          href="/register"
+          className="btn btn-sm btn-primary btn-outline shadow-none text-lg"
+        >
+          Register
         </Link>
       </div>
     </div>
