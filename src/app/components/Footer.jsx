@@ -12,7 +12,7 @@ const Footer = () => {
     .toUpperCase();
   return (
     <div className="max-w-280 mx-auto w-full">
-      <footer className="footer place-content-center lg:place-content-between place-items-center lg:place-items-start sm:footer-horizontal bg-base-100 p-10 text-blue-200">
+      <footer className="footer place-content-center lg:place-content-between place-items-center lg:place-items-start sm:footer-horizontal bg-base-200 p-10 text-blue-200">
         <aside className="place-items-center text-center">
           <Image src="/logo.png" alt="Camera" width={80} height={80} />
           <h2 className="text-xl text-primary font-semibold">CameraCrew</h2>
