@@ -13,8 +13,8 @@ const RentalCategories = () => {
   ];
 
   return (
-    <section className="bg-base-200 py-16 px-6">
-      <div className="max-w-7xl mx-auto">
+    <section className="mb-20 bg-base-100">
+      <div className="max-w-7xl mx-auto py-16 px-6 bg-base-200">
         {/* Title */}
         <h2 className="text-primary text-center text-2xl font-bold mb-12">
           Rental Categories

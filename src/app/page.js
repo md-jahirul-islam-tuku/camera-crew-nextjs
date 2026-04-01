@@ -8,7 +8,7 @@ import Sample from "./components/HomeComponents/Sample";
 
 export default function Home() {
   return (
-    <div>
+    <div className="bg-base-100">
       <Banner />
       <Sample />
       <Categories />
