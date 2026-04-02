@@ -14,6 +14,7 @@ export default function Home() {
       <Categories />
       <RentLenses />
       <CameraServicing />
+      <Partners />
       <Contact />
     </div>
   );

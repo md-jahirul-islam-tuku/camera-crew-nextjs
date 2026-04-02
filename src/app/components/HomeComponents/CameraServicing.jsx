@@ -16,7 +16,7 @@ const CameraServicing = () => {
             Look after your camera, service it regularly
           </p>
           <p className="text-blue-100 text-start leading-relaxed">
-            <span className="font-bold text-white">Camera Crew</span> are the Authorised Service Centre for Canon and Nikon branded cameras providing Under warranty Repairs and Out of Warranty Repairs.
+            <span className="font-bold text-primary">Camera Crew</span> are the Authorised Service Centre for Canon and Nikon branded cameras providing Under warranty Repairs and Out of Warranty Repairs.
           </p>
         </div>
 
@@ -34,7 +34,7 @@ const CameraServicing = () => {
         {/* Bottom Text Content */}
         <div className="mt-8 text-blue-100 leading-relaxed">
           <p>
-            Regular servicing of your camera and lens will help to ensure that your photographic equipment works perfectly for you for every photographic shoot. <span className="font-bold text-white">Camera Crew</span> support camera equipment for some of the best known photographers and photo journalists in the country - the same experience is available to you as a keen photographer. 
+            Regular servicing of your camera and lens will help to ensure that your photographic equipment works perfectly for you for every photographic shoot. <span className="font-bold text-primary">Camera Crew</span> support camera equipment for some of the best known photographers and photo journalists in the country - the same experience is available to you as a keen photographer. 
             <a href="#" className="text-blue-400 hover:text-blue-300 ml-1 font-semibold transition-colors">
               CONTACT WITH US.
             </a>

@@ -118,7 +118,6 @@ const Contact = () => {
           <div className="lg:col-span-2 text-white p-10 space-y-6 place-content-center">
             <aside className="place-items-center text-center">
               <Image src="/logo.png" alt="Camera" width={150} height={150} />
-              <h2 className="text-2xl text-primary font-semibold">CameraCrew</h2>
               <p className="text-blue-200 mt-1"><span className="text-primary">Email:</span> mdjahirulislamtuku@gmail.com</p>
             </aside>
           </div>
