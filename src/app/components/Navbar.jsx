@@ -18,6 +18,22 @@ const Navbar = () => {
       <li>
         <NavLink href="/about">About</NavLink>
       </li>
+      <li>
+        <Link
+          href="/login"
+          className="btn btn-sm btn-primary btn-outline shadow-none text-lg md:hidden mb-3 w-2/3"
+        >
+          Login
+        </Link>
+      </li>
+      <li>
+        <Link
+          href="/register"
+          className="btn btn-sm btn-primary btn-outline shadow-none text-lg md:hidden w-2/3"
+        >
+          Register
+        </Link>
+      </li>
     </>
   );
   return (
@@ -50,7 +66,9 @@ const Navbar = () => {
         </div>
         <Link href="/" className="btn btn-ghost text-xl">
           <Image src="/logo.png" alt="Camera" width={40} height={40} />
-          <span className="text-amber-800 dark:text-primary font-sans antialiased">CameraCrew</span>
+          <span className="text-amber-800 dark:text-primary font-sans antialiased">
+            CameraCrew
+          </span>
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
@@ -59,13 +77,13 @@ const Navbar = () => {
       <div className="navbar-end gap-2">
         <Link
           href="/login"
-          className="btn btn-sm btn-primary btn-outline shadow-none text-lg"
+          className="btn btn-sm btn-primary btn-outline shadow-none text-lg hidden md:flex"
         >
           Login
         </Link>
         <Link
           href="/register"
-          className="btn btn-sm btn-primary btn-outline shadow-none text-lg"
+          className="btn btn-sm btn-primary btn-outline shadow-none text-lg hidden md:flex"
         >
           Register
         </Link>

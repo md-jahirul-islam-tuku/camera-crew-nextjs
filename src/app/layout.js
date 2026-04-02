@@ -1,8 +1,8 @@
+import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
+import ScrollTop from "./components/ScrollTop";
 import "./globals.css";
 import { Ubuntu } from "next/font/google";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
-import ScrollTop from "./components/ScrollTop"; // client wrapper
 
 const ubuntu = Ubuntu({
   subsets: ["latin"],
@@ -17,14 +17,14 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <body className={`${ubuntu.variable} font-sans antialiased`}>
+    <html lang="en" className={ubuntu.variable} suppressHydrationWarning>
+      <body>
+        <ScrollTop/>
         <Navbar />
-        <main className="min-h-screen bg-base-200 max-w-7xl mx-auto w-full px-4">
+        <main className="min-h-screen place-items-center bg-base-200 max-w-280 mx-auto w-full">
           {children}
         </main>
         <Footer />
-        <ScrollTop /> {/* client component */}
       </body>
     </html>
   );

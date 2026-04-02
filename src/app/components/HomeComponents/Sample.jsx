@@ -11,7 +11,7 @@ const Sample = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-3">
         {/* Card 1 */}
         <div className="relative bg-base-200 p-6 md:p-8 overflow-hidden flex flex-col min-h-100">
-          <div className="z-10 text-end">
+          <div className="text-end">
             <span className="text-primary font-bold text-xs md:text-sm tracking-widest uppercase">
               Disc Up to 50%
             </span>
@@ -42,7 +42,7 @@ const Sample = () => {
             />
           </div>
 
-          <div className="z-10">
+          <div>
             <span className="text-primary font-bold text-xs md:text-sm tracking-widest uppercase">
               Wide Camera
             </span>
@@ -55,7 +55,7 @@ const Sample = () => {
 
         {/* Card 3 */}
         <div className="relative bg-base-200 p-6 md:p-8 overflow-hidden flex flex-col min-h-100">
-          <div className="z-10 text-center">
+          <div className="text-center">
             <span className="text-primary font-bold text-xs md:text-sm tracking-widest uppercase">
               Remote Lens
             </span>

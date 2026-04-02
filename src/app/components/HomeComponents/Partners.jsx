@@ -25,7 +25,7 @@ const Partners = () => {
       <h1 className="mb-10 text-2xl text-center font-semibold text-primary">
         Some of Our Valuable Partners
       </h1>
-      <div className="grid grid-cols-4 gap-10">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-10">
         {partners.map((partner) => (
           <div key={partner.id} className="">
             <Image
